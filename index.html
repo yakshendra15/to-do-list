@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter your location">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        
+        <div class="weather-box">
+            <div class="weather-details">
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>--</span>
+                </div>
+                <div class="temp">
+                    <i class="fas fa-temperature-high"></i>
+                    <span>--°C</span>
+                </div>
+            </div>
+            
+            <div class="weather-info">
+                <div class="description">
+                    <i class="fas fa-cloud"></i>
+                    <span>--</span>
+                </div>
+                <div class="humidity">
+                    <i class="fas fa-tint"></i>
+                    <span>Humidity: --%</span>
+                </div>
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <span>Wind: -- km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
